@@ -58,7 +58,6 @@ group :development do
   gem "capistrano-upload-config",  require: false
   gem "capistrano3-nginx", "~> 2.0", require: false
   gem "capistrano3-puma", require: false
-  gem 'sshkit-sudo'
 end
 
 group :test do
