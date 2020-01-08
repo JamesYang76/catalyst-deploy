@@ -55,6 +55,7 @@ group :development do
   gem "capistrano-bundler", "~> 1.6", require: false
   gem "capistrano-rails", "~> 1.4", require: false
   gem "capistrano-rbenv", "~> 2.1", require: false
+  gem "capistrano-upload-config",  require: false
   gem "capistrano3-nginx", "~> 2.0", require: false
   gem "capistrano3-puma", require: false
 end

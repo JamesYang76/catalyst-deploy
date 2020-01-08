@@ -12,7 +12,9 @@ install_plugin Capistrano::SCM::Git
 require "capistrano/rbenv"
 require "capistrano/bundler"
 require "capistrano/rails"
+require "capistrano/upload-config"
 require "capistrano/puma"
+require "capistrano/puma/nginx"
 install_plugin Capistrano::Puma
 install_plugin Capistrano::Puma::Nginx
 
